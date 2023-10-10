@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.uploadimages"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:7:5-81
+13-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:8:5-78
+14-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:9:5-80
+15-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:9:22-78
+16
+17    <application
+17-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:11:5-25:19
+18        android:allowBackup="true"
+18-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\c1b5867fa2dccd6df01d2f781b2a68b1\core-1.2.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:14:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:15:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:16:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:17:9-40
+27        <activity android:name="com.example.uploadimages.MainActivity" >
+27-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:18:9-24:20
+27-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:18:19-47
+28            <intent-filter>
+28-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:19:13-23:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:20:17-69
+29-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:20:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:22:17-77
+31-->C:\Users\user\Desktop\UploadImages\app\src\main\AndroidManifest.xml:22:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->[com.karumi:dexter:5.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a613a2d18a2e28d1718e1d26fc9a6e75\jetified-dexter-5.0.0\AndroidManifest.xml:27:9-29:72
+35            android:name="com.karumi.dexter.DexterActivity"
+35-->[com.karumi:dexter:5.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a613a2d18a2e28d1718e1d26fc9a6e75\jetified-dexter-5.0.0\AndroidManifest.xml:28:13-60
+36            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+36-->[com.karumi:dexter:5.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\a613a2d18a2e28d1718e1d26fc9a6e75\jetified-dexter-5.0.0\AndroidManifest.xml:29:13-69
+37        <activity
+37-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d65d21f46f0b4419591c77fab460a27d\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+38            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+38-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d65d21f46f0b4419591c77fab460a27d\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+39            android:exported="false"
+39-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d65d21f46f0b4419591c77fab460a27d\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+40            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+40-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\d65d21f46f0b4419591c77fab460a27d\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+41
+42        <meta-data
+42-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5951d9d70a8ef44f6a36a74f7c476f60\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+43            android:name="com.google.android.gms.version"
+43-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5951d9d70a8ef44f6a36a74f7c476f60\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+44            android:value="@integer/google_play_services_version" />
+44-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\5951d9d70a8ef44f6a36a74f7c476f60\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+45    </application>
+46
+47</manifest>
